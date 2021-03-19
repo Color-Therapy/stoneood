@@ -8,11 +8,7 @@ We are using color and science for making people levies much better!
                 Mohammad Al Smadi
                 Majedah Hatamleh
 
-
 #### We are an awesome team.
 ^_^
  vamooooooooooooooooos Real
-
-
-
 
