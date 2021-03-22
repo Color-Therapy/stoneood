@@ -1,46 +1,93 @@
 
 .banner-area {
-	width: 100%;
-	height: 500px;
-	/* position: fixed; */
-	/* top: 100px; */
-    position: relative;
-	background-image: url(https://i.postimg.cc/T3B3WFcv/2.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-    
+width: 100%;
+height: 500px;
+/* position: fixed; */
+/* top: 100px; */
+position: relative;
+background-image: url(https://i.postimg.cc/T3B3WFcv/2.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center center;
+
 }
 .banner-area h2 {
-    text-align: center;
-	padding-top: 8%;
-	font-size: 70px;
-	font-family: poppins;
-	text-transform: uppercase;
-	color: #fff;
+text-align: center;
+padding-top: 8%;
+font-size: 70px;
+font-family: poppins;
+text-transform: uppercase;
+color: #fff;
 }
 .banner-area h4 {
-    text-align: center;
-	padding-top: 8%;
-	font-size: 30px;
-	font-family: poppins;
-	text-transform: uppercase;
-	color: #fff;
+text-align: center;
+padding-top: 8%;
+font-size: 30px;
+font-family: poppins;
+text-transform: uppercase;
+color: #fff;
 }
 
 .banner-area div {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    text-align: center;
-	padding-top: 8%;
-	font-size: 30px;
-	font-family: poppins;
-	text-transform: uppercase;
-	color: #fff;
+position: absolute;
+bottom: 8px;
+right: 16px;
+text-align: center;
+padding-top: 8%;
+font-size: 30px;
+font-family: poppins;
+text-transform: uppercase;
+color: #fff;
 
 }
 .banner-area div li{
-    text-decoration: none;
-    display: inline-block;
+text-decoration: none;
+display: inline-block;
+}
+#last h1{
+font-size: x-large;
+margin-bottom: 50px;
+}
+input:first-child{
+width: 200px;
+height: 100px;
+text-align:center;
+}
+#What-Is-Color-Therapy{
+width: 95%;
+text-align: center;
+padding-bottom: 40px;
+
+}
+#text{
+float: left;
+width: 47.5%;
+}
+#photo{
+width: 47.5%;
+float: right;
+}
+#feedback-form{
+padding-top: 20px;
+text-align: center;
+}
+#feedback{
+text-align: center;
+}
+.img2{
+float: left;
+
+}
+.center {
+display: inline-block;
+overflow: auto;
+margin: auto;
+width: 50%;
+border: 3px solid black;
+padding: 10px;
+}
+.feeds{
+margin-bottom: 150px;
+text-align: center;
+border: black;
 }
