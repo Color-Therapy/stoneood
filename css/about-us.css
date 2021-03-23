@@ -1,17 +1,224 @@
 *{
     box-sizing: content-box;
-}
-main p{
+  }
+  main p{
     text-align: left;
     padding-right: 20%;
     font-size: 20px;
     padding-left: 10px;
-}
-h1{
+  }
+  h1{
     text-align: center;
     border: 3px solid black;
     border-width:initial;
     font-size: xx-large;
     text-shadow: 2px 2px 5px rgb(219, 169, 121);
-}
-
+  }
+  .allImg{
+    text-align: center;
+    /* padding-top: 50%; */
+    margin-top: 30%;
+    padding-bottom: 50%;
+    
+  }
+  
+  
+  .imagb{
+    text-align: center;
+    /* padding-top: 50%; */
+    margin-top: 30%;
+    padding-bottom: 50%;
+  
+  }
+  
+  
+  .image {
+    display: inline-block;
+    position: relative;
+    width: 15%;
+    padding-bottom: 100px;
+    padding: 1%;
+    justify-items: center;
+    border-radius: 50px;
+    /* cursor: zoom-in; */
+  
+  }
+  
+  .image__img {
+    display: block;
+    width: 100%;
+    height: 80%;
+    
+  }
+  
+  .image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 2s;
+  
+  
+  }
+  
+  .image__overlay--blur {
+    backdrop-filter: blur(5px);
+  }
+  
+  /* .image__overlay--primary {
+    background: #009578;
+  } */
+  
+  .image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+  }
+  
+  .image__overlay:hover {
+    
+    opacity: 1;
+  
+  }
+  
+  .image__overlay:hover > * {
+    transform: translateY(0);
+  }
+  
+  .image__name {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: #d7f048;
+  }
+  
+  .image__title {
+    font-size: 1.5em;
+    font-style: italic;
+    height: 20px;
+  }
+  
+  .image__description {
+    font-size: 1.2em;
+    margin-top: 0.25em;
+  }
+  .arabic{
+    font-size: 1.5em;
+  }
+  
+  /* social media */
+  
+   .allImg ul{
+    display: flex; 
+  
+   }
+   
+  .allImg ul {
+    position: relative;
+    top: 100px;
+    
+  }
+  .allImg  ul li{
+    position: relative;
+    display: block;
+    color: #666;
+    font-size: 45px;
+    height: 60px;
+    width: 60px;
+    background: #141414ef;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 3px;
+    cursor: pointer;
+    transition: .5s;
+  
+  
+  }
+  .allImg  ul li:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: inherit;
+    background: #d35400;
+    border-radius: 50%;
+    transform: scale(.9);
+    z-index: -1;
+    transition: .5s;
+  } 
+  
+  .allImg  ul li:nth-child(1):before{
+    background: #4267B2;
+  }
+  .allImg  ul li:nth-child(2):before{
+    background: #1DA1F2;
+  }
+  .allImg  ul li:nth-child(3):before{
+    background: #ebe3e6;
+  }
+  .allImg  ul li:nth-child(4):before{
+    background: #2867B2;
+  }
+  .allImg  ul li:nth-child(5):before{
+    background: #f3f1f1;
+  } 
+  .allImg  ul li:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+     box-shadow: 0 0 15px #d35400;
+  }
+  .allImg  ul li:nth-child(1):hover:before{
+    box-shadow: 0 0 15px #4267B2;
+  }
+  .allImg  ul li:nth-child(2):hover:before{
+    box-shadow: 0 0 15px #1DA1F2;
+  }
+  .allImg  ul li:nth-child(3):hover:before{
+    box-shadow: 0 0 15px #f0e8eb;
+  }
+  .allImg  ul li:nth-child(4):hover:before{
+    box-shadow: 0 0 15px #2867B2;
+  }
+  .allImg  ul li:nth-child(5):hover:before{
+    box-shadow: 0 0 15px #dbc4c4;
+  }
+  .allImg  ul li:nth-child(1):hover{
+    color: #456cba;
+    box-shadow: 0 0 15px #4267B2;
+    text-shadow: 0 0 15px #4267B2;
+  }
+  .allImg  ul li:nth-child(2):hover{
+    color: #26a4f2;
+    box-shadow: 0 0 15px #1DA1F2;
+    text-shadow: 0 0 15px #1DA1F2;
+  }
+  .allImg  ul li:nth-child(3):hover{
+    color: #e23670;
+    box-shadow: 0 0 15px #E1306C;
+    text-shadow: 0 0 15px #E1306C;
+  }
+  .allImg  ul li:nth-child(4):hover{
+    color: #2a6cbb;
+    box-shadow: 0 0 15px #2867B2;
+    text-shadow: 0 0 15px #2867B2; 
+  }
+  .allImg  ul li:nth-child(5):hover{
+    color: #f6f6f6;
+    box-shadow: 0 0 15px #f5f1f1;
+    text-shadow: 0 0 15px #f0eaea;
+  }   
+  
+  .allImg  i{
+    color: #ecf2f5;
+  }
+  
+  
