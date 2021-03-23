@@ -90,9 +90,24 @@ form.addEventListener('submit', clickhandler)
 function clickhandler(event) {
     event.preventDefault();
 
-    let x;
-    let y;
-    let z;
+    let firstValueAnswer;
+    let secondValueAnswer;
+    let thirdValueAnswer;
+    let firstPercantage;
+    let secondPercantage;
+    let thirdPercantage;
+    let fouthPercantage;
+    let fifthPercantage;
+    let sixthPercantage;
+
+
+    let firstColor;
+    let secColor;
+    let thirdColor;
+    let firstColor2;
+    let secColor2;
+    let thirdColor2;
+
 
     let question1 = event.target.question1.value;
     let question2 = event.target.question2.value;
@@ -103,30 +118,121 @@ function clickhandler(event) {
 
 
     if (question1 == 'ans1Q1') {
-        x = 'first answer 1';
+        firstValueAnswer = 'first answer 1';
+        firstPercantage = 50;
+        firstColor = 'White';
+        fouthPercantage = 20;
+        firstColor2 = 'Black'
+
+
     }
     else
         if (question1 == 'ans2Q1') {
-            x = 'sec answer 1';
+            firstValueAnswer = 'sec answer 1';
+            firstPercantage = 30;
+            firstColor = 'Black'
+            fouthPercantage = 20;
+            firstColor2 = 'White'
+
         }
     if (question2 == 'ans1Q2') {
-        y = ' first answer 2 ';
+        secondValueAnswer = ' first answer 2 ';
+        secondPercantage = 60;
+        secColor = 'Blue'
+        fifthPercantage = 20;
+        secColor2 = 'Green';
     }
     else
         if (question2 == 'ans2Q2') {
-            y = ' sec answer 2';
+            secondValueAnswer = ' sec answer 2';
+            secondPercantage = 40;
+            secColor = 'Green';
+            fifthPercantage = 20;
+            secColor2 = 'blue';
         }
 
 
     if (question3 == 'ans1Q3') {
-        z = ' first answer 3 ';
+        thirdValueAnswer = ' first answer 3 ';
+        thirdPercantage = 80;
+        thirdColor = 'yellow';
+        sixthPercantage = 20;
+        thirdColor2 = 'Orange';
     }
     else
         if (question3 == 'ans2Q3') {
-            z = 'sec answer 3 ';
+            thirdValueAnswer= 'sec answer 3 ';
+            thirdPercantage = 50;
+            thirdColor = 'Orange';
+            sixthPercantage = 20;
+            thirdColor2 = 'yellow';
         }
 
-    console.log(x, y, z)
+    console.log(firstValueAnswer,secondValueAnswer,thirdValueAnswer)
+
+
+
+    let labels = [
+
+        firstColor,
+        secColor,
+        thirdColor,
+        firstColor2,
+        secColor2,
+        thirdColor2,
+    ];
+    let data = [
+        firstPercantage,
+        secondPercantage,
+        fouthPercantage,
+        fifthPercantage,
+        thirdPercantage,
+        sixthPercantage,
+    ];
+
+    let backGroundArray = [firstColor, secColor, thirdColor, firstColor2, secColor2, thirdColor2];
+    let barChart = document.getElementById("pieChart").getContext('2d');
+    Chart.defaults.global.defaultFontFamily = 'lato';
+    Chart.defaults.global.defaultFontSize = 18;
+    Chart.defaults.global.defaultFontColor = '#777';
+
+
+
+    let myChart = new Chart(barChart, {
+
+        type: 'pie',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    data: data,
+
+
+                    backgroundColor: backGroundArray,
+
+                }
+            ],
+
+
+
+
+        },
+        options: {
+            title: {
+                display: true,
+                text: "Colors therapy election",
+                fontSize: 30,
+            }
+        }
+    });
+
+
+
+
+
+
+
+
 
 
 }

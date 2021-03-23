@@ -147,4 +147,9 @@ font-size: larger;
     color: #6b82a7;
     margin: 0;
 }
+#container {
+    width: 50%;
+    height: 50%;
+    
+  }
 
