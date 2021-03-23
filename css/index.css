@@ -91,3 +91,68 @@ margin-bottom: 150px;
 text-align: center;
 border: black;
 }
+
+
+/* form css */
+
+#header-journey{
+    text-align: center;
+  }
+  button{
+    border-radius: 20px 0px 20px 0px;
+     text-align: center;
+    width: 25%;
+      padding: 10px;
+      font-size: 16px;
+      margin-top:15px;
+   
+     color:white;
+     background-color:#2d4b5a;
+       transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  form{
+    border-radius: 15px 0 15px 0;
+    
+  }
+
+  #myform{
+     border-radius:10px 0px 10px 0px;
+    
+     width: 25%;
+         padding: 10px;
+     float: right;
+     font-size: 16px;
+     margin-top:15px;
+      color:white;
+    background-color:#2d4b5a;
+    transition: all 0.5s;
+    cursor: pointer;
+
+  }
+  
