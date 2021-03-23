@@ -1,0 +1,17 @@
+*{
+    box-sizing: content-box;
+}
+main p{
+    text-align: left;
+    padding-right: 20%;
+    font-size: 20px;
+    padding-left: 10px;
+}
+h1{
+    text-align: center;
+    border: 3px solid black;
+    border-width:initial;
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px rgb(219, 169, 121);
+}
+
