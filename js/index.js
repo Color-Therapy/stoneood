@@ -1,4 +1,11 @@
 'use strict'
+
+let feedback = document.getElementById('feedback');
+feedback.addEventListener('submit',function(event){
+event.preventDefault();
+let userFeed=event.target.text.value;
+console.log(userFeed);
+})
 let form = document.getElementById('myform');
 
 form.addEventListener('submit',clickhandler)
