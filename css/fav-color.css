@@ -1,3 +1,60 @@
+
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .column img {
+    margin-top: 12px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#favcolortext {
+    height: 840px;
+    width: 40%;
+    border: 0.5px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    -webkit-border-radius: 5px;
+    overflow:visible ;
+    float: left;
+    padding-left: 0.5%;
+    padding-top: 1%;
+}
+
+
+#photograid {
+    float: right;
+    width:30%;
+    padding-right: 0.5%;
+
+}
+
+#pageup
+{
+ 
+    display: inline-block;
+    padding-top: 7%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 100%;
+    position: absolute;
+
+}
+
+.imgshadow
+{
+  box-shadow: 4px 4px 4px 4px #1f1c1a;
+}
+
+
 #submit{
     border-radius: 20px;
     background-color: rgb(35, 182, 170);
