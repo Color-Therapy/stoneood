@@ -1,0 +1,26 @@
+
+#submit{
+    border-radius: 20px;
+    background-color: rgb(35, 182, 170);
+    background: white;
+}
+h1{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+fieldset
+{
+    width: 120%;
+    border-radius:50px ;
+    
+}
+#formy{
+text-align: center;
+border-radius: 5px;
+background: rgb(202, 197, 197);
+width: 50%;
+margin-left: 25%;
+border-radius: 50px;
+font-size: larger;
+}
