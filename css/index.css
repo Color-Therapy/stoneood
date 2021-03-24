@@ -136,23 +136,65 @@ border: black;
     opacity: 1;
     right: 0;
   }
-  form{
+   form{
     border-radius: 15px 0 15px 0;
     
   }
 
   #myform{
-     border-radius:10px 0px 10px 0px;
-    
-     width: 25%;
-         padding: 10px;
-     float: right;
-     font-size: 16px;
-     margin-top:15px;
-      color:white;
-    background-color:#2d4b5a;
-    transition: all 0.5s;
-    cursor: pointer;
+    border-radius:10px 0px 10px 0px;
+    width: 40%;
+    margin: 0;
+    width: 30%;
+    padding: 10px;
+    float: left;
+    font-size: 20px;
+    margin-top:15px;
+ 
+   color:white;
+   background-color:#2d4b5a;
+   transition: all 0.5s;
+   background-clip: padding-box;
+ }
 
-  }
-  
+ input[type=text]{
+   width: 100%;
+   padding: 8px 10px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #f68585;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+
+ select {
+   width: 50%;
+   padding: 2px 5px;
+   margin: 4px 0;
+   display: inline-block;
+   border: 1px solid #f68585;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+
+
+ input[type=submit]{
+   border:0;
+   background:#343050;
+   padding:.5rem;
+   color:white;
+   margin:1rem 0;
+   width:auto;
+   text-transform:uppercase;
+   cursor:pointer;
+   /* transition:.3s
+   
+   background ease;
+   &:hover{
+     background:#3498DB;
+   } */
+ }
+
+ input[type=submit]:hover{
+
+ }

@@ -1,0 +1,56 @@
+
+/* img */
+
+#glassy {
+	width: 50%;
+	height: 300px;
+	 position: fixed; 
+	top: 100px; 
+    position: relative;
+	background-image: url(../img/oodstone.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+    border-radius:10px 10px 10px 10px;
+    /* background-attachment: fixed;  */
+    /* background-size: cover; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+
+
+.painting {
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+  }
+  
+  .painting:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(2px);
+    margin: -20px;
+  }
+  .painting h3{
+  text-align: center;
+  padding-top: 25%;
+  font-size: 25px;
+  font-family: poppins;
+  text-transform: uppercase;
+  color: rgb(23, 24, 24);
+}
