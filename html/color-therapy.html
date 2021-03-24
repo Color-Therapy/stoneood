@@ -31,42 +31,75 @@
                         <img src='../img/searchvector.png' />
                     </div>
                 </li>
-                <li id='language'>*</li>
+                <li id='language'></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="music"><audio id="relaxing" src="../music/AMBForst_Forest (ID 0100)_BSB.wav" muted controls
-                autoplay>
-            </audio> </section>
-        <section> What is color therapy </section>
+               <section>       <section id="pageup">
+
+            <section id="Scrollbox">
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloribus, cupiditate, ullam
+                    placeat omnis ducimus doloremque veritatis soluta quis repellendus asperiores necessitatibus
+                    consequuntur, rerum odit ea voluptatibus mollitia. Facilis, cumque.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatum ut temporibus maxime,
+                    esse ducimus deleniti nobis magnam cumque delectus. Quas sequi maxime aliquid. Delectus, sequi? Id
+                    qui cumque eveniet. Lorem, ipsum
+                    dolor sit amet consectetur adipisicing elit. Corporis voluptas ad mollitia minus placeat architecto
+                    voluptatem, ipsum vel saepe aperiam molestias est consequatur et maiores amet debitis fugit, quas
+                    voluptatum. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Libero distinctio quo fugit delectus a blanditiis at explicabo,
+                    ratione illo voluptate. Eveniet illo, excepturi vero eaque ipsam delectus commodi laborum rem.
+                </div>
+            </section>
+
+            <!-- blue slider to compare two images  -->
+            <section id="slider">
+                <div class="img-comp-container">
+                    <div class="img-comp-img">
+                        <img src="../img/img_snow.jpg" width="300" height="200">
+                    </div>
+                    <div class="img-comp-img img-comp-overlay">
+                        <img src="../img/img_forest.jpg" width="300" height="200">
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        </section>
+ </section>
         <section>
-            <h1>Questions</h1>
+            <p id='fulfill'> Allow us to fulfill your experience with colors <br> And give some personalized expert color therapy! </p>
             <form id="formy">
                 <fieldset id="fieldset">
 
 
-                    <label for="therapy-question"> Q1 ?: </label> <br>
-                    <input type="radio" name="question1" value="ans1Q1">answer1 <br>
-                    <input type="radio" name="question1" value="ans2Q1">answer2<br>
+                    <label for="therapy-question"> 1: Let us know about you average sleeping hours? </label> <br><br>
+                    <input type="radio" name="question1" value="ans1Q1"> A.	Less than 7 hours. <br><br>
+                    <input type="radio" name="question1" value="ans2Q1"> B.	More than 7 hours. <br>
 
-                    <br>
+                    <br><br><br>
 
-                    <label for="therapy-question"> Q2 ?: </label> <br>
-                    <input type="radio" name="question2" value="ans1Q2" class="radiobuttonclass">answer1 <br>
-                    <input type="radio" name="question2" value="ans2Q2" class=" radiobuttonclass">answer2 <br>
+                    <label for="therapy-question"> 2: What about your hobbies, do you have any? </label> <br><br>
+                    <input type="radio" name="question2" value="ans1Q2" class="radiobuttonclass"> A. Yes, I do. <br><br>
+                    <input type="radio" name="question2" value="ans2Q2" class=" radiobuttonclass"> B. No, I don’t. <br>
 
-                    <br>
-                    <label for="therapy-question"> Q3: </label> <br>
-                    <input type="radio" name="question3" value="ans1Q3" class="radiobuttonclass">answer1 <br>
-                    <input type="radio" name="question3" value="ans2Q3" class=" radiobuttonclass">answer2 <br>
+                    <br><br><br>
+                    <label for="therapy-question"> 3:  Do you feel down often? </label> <br><br>
+                    <input type="radio" name="question3" value="ans1Q3" class="radiobuttonclass"> A. Yes, I do actually. <br><br>
+                    <input type="radio" name="question3" value="ans2Q3" class=" radiobuttonclass"> B. Not really. <br>
 
-                    <br>
+                    <br><br>
                     <input type="submit" id="submit">
 
                 </fieldset>
 
             </form>
+            <div id="container">
+                <section id="therapyResult"></section>
+                <canvas id="pieChart"></canvas>
+            </div>
         </section>
 
         <section id="article">
@@ -179,6 +212,7 @@
             </ul>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
     <script src="../js/app.js"></script>
     <script src="../js/color-therapy.js"></script>
 
