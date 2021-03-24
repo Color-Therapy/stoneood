@@ -88,7 +88,8 @@ fieldset
     font-size: larger;
   
 }   
-#favColorResult{
+section #favColorResult p{
+
   text-align: center;
     border-radius: 5px;
     background: rgb(202, 197, 197);
