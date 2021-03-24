@@ -74,6 +74,9 @@ nav ul {
     padding-top: 30px;
     float: right;
     padding-right: 20px;
+    z-index: 2000;
+    position: absolute;
+
 }
 
 #search-language li {
