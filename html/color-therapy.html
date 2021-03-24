@@ -36,10 +36,7 @@
         </nav>
     </header>
     <main>
-        <section id="music"><audio id="relaxing" src="../music/AMBForst_Forest (ID 0100)_BSB.wav" muted controls
-                autoplay>
-            </audio> </section>
-        <section>       <section id="pageup">
+               <section>       <section id="pageup">
 
             <section id="Scrollbox">
                 <div>
@@ -73,33 +70,34 @@
         </section>
  </section>
         <section>
-            <h1>Questions</h1>
+            <p id='fulfill'> Allow us to fulfill your experience with colors <br> And give some personalized expert color therapy! </p>
             <form id="formy">
                 <fieldset id="fieldset">
 
 
-                    <label for="therapy-question"> Q1 ?: </label> <br>
-                    <input type="radio" name="question1" value="ans1Q1">answer1 <br>
-                    <input type="radio" name="question1" value="ans2Q1">answer2<br>
+                    <label for="therapy-question"> 1: Let us know about you average sleeping hours? </label> <br><br>
+                    <input type="radio" name="question1" value="ans1Q1"> A.	Less than 7 hours. <br><br>
+                    <input type="radio" name="question1" value="ans2Q1"> B.	More than 7 hours. <br>
 
-                    <br>
+                    <br><br><br>
 
-                    <label for="therapy-question"> Q2 ?: </label> <br>
-                    <input type="radio" name="question2" value="ans1Q2" class="radiobuttonclass">answer1 <br>
-                    <input type="radio" name="question2" value="ans2Q2" class=" radiobuttonclass">answer2 <br>
+                    <label for="therapy-question"> 2: What about your hobbies, do you have any? </label> <br><br>
+                    <input type="radio" name="question2" value="ans1Q2" class="radiobuttonclass"> A. Yes, I do. <br><br>
+                    <input type="radio" name="question2" value="ans2Q2" class=" radiobuttonclass"> B. No, I don’t. <br>
 
-                    <br>
-                    <label for="therapy-question"> Q3: </label> <br>
-                    <input type="radio" name="question3" value="ans1Q3" class="radiobuttonclass">answer1 <br>
-                    <input type="radio" name="question3" value="ans2Q3" class=" radiobuttonclass">answer2 <br>
+                    <br><br><br>
+                    <label for="therapy-question"> 3:  Do you feel down often? </label> <br><br>
+                    <input type="radio" name="question3" value="ans1Q3" class="radiobuttonclass"> A. Yes, I do actually. <br><br>
+                    <input type="radio" name="question3" value="ans2Q3" class=" radiobuttonclass"> B. Not really. <br>
 
-                    <br>
+                    <br><br>
                     <input type="submit" id="submit">
 
                 </fieldset>
 
             </form>
             <div id="container">
+                <section id="therapyResult"></section>
                 <canvas id="pieChart"></canvas>
             </div>
         </section>
