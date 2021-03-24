@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
   }
@@ -13,6 +14,9 @@
     padding: 32px;
   }
   
+=======
+
+>>>>>>> 75cca15a268c886ae7791cbe379e60c789acdda9
   /* Create two equal columns that floats next to each other */
   .column {
     float: left;
@@ -31,8 +35,11 @@
     clear: both;
   }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 75cca15a268c886ae7791cbe379e60c789acdda9
 #favcolortext {
     height: 840px;
     width: 40%;
@@ -57,11 +64,19 @@
 {
  
     display: inline-block;
+<<<<<<< HEAD
     padding-top: 7%;
     padding-left: 3%;
     padding-right: 3%;
     width: 100%;
     position: absolute;
+=======
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    /* position: absolute; */
+>>>>>>> 75cca15a268c886ae7791cbe379e60c789acdda9
 
 }
 
@@ -71,7 +86,10 @@
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75cca15a268c886ae7791cbe379e60c789acdda9
 #submit{
     border-radius: 20px;
     background-color: rgb(35, 182, 170);
@@ -88,14 +106,31 @@ fieldset
     border-radius:50px ;
     
 }
-
+#userColor{
+  padding-top: 50px;
+}
 #theForm{
     text-align: center;
     border-radius: 5px;
     background: rgb(202, 197, 197);
-    width: 50%;
-    margin-left: 25%;
-    border-radius: 50px;
+    width: 30%;
+    height: 300px;
+    padding-top: 30px;
+    margin-left: 35%;
+    border-radius: 60px;
     font-size: larger;
   
-}    
+}   
+#favColorResult{
+  text-align: center;
+    border-radius: 5px;
+    background: rgb(202, 197, 197);
+    width: 30%;
+    height: 300px;
+    padding-top: 30px;
+    margin-left: 35%;
+    border-radius: 60px;
+    font-size: larger;
+
+}
+
