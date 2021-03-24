@@ -77,6 +77,13 @@ fieldset
     border-radius:50px ;
     
 }
+#fulfill{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+}
 #formy{
 text-align: center;
 border-radius: 5px;
@@ -85,6 +92,28 @@ width: 50%;
 margin-left: 25%;
 border-radius: 50px;
 font-size: larger;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#container {
+    width: 70%;
+    padding-left: 20%;
+    height: 50%;
+    /* display: inline-block; */
+    
+  }
+#therapyResult p {
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(71, 231, 31, 0.534);
+    width: 1000;
+    height: 850px;
+    padding-top: 30px;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 60px;
+    font-size: larger;
 }
 
 #article .site-container{
@@ -147,9 +176,5 @@ font-size: larger;
     color: #6b82a7;
     margin: 0;
 }
-#container {
-    width: 50%;
-    height: 50%;
-    
-  }
+
 
