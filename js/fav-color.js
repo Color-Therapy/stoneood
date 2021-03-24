@@ -1,10 +1,5 @@
 'use strict'
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 75cca15a268c886ae7791cbe379e60c789acdda9
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
 
@@ -13,49 +8,30 @@ var i;
 
 // Full-width images
 function one() {
-<<<<<<< HEAD
+
   for (i = 0; i < elements.length; i++) {
     elements[i].style.flex = "100%";
   }
-=======
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.flex = "100%";
-    }
->>>>>>> 75cca15a268c886ae7791cbe379e60c789acdda9
+
 }
 
 // Two images side by side
 function two() {
-<<<<<<< HEAD
+
   for (i = 0; i < elements.length; i++) {
     elements[i].style.flex = "50%";
   }
-=======
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.flex = "50%";
-    }
->>>>>>> 75cca15a268c886ae7791cbe379e60c789acdda9
+
 }
 
 // Four images side by side
 function four() {
-<<<<<<< HEAD
   for (i = 0; i < elements.length; i++) {
     elements[i].style.flex = "25%";
   }
 }
 
 
-=======
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.flex = "25%";
-    }
-}
-
-
-
-
->>>>>>> 75cca15a268c886ae7791cbe379e60c789acdda9
 let formA = document.getElementById('theForm')
 let getFavColorResult = document.getElementById('favColorResult');
 let answer=[];
