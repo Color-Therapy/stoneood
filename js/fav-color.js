@@ -41,6 +41,7 @@ function render() {
     answerP = document.createElement('p');
     getFavColorResult.appendChild(answerP);
     answerP.textContent = answer;
+
 }
 
 
@@ -106,6 +107,7 @@ function clickhandler1(event) {
         getFavColorResult.removeChild(getFavColorResult.childNodes[1]);
     }
 render();
+
 
 }
 
