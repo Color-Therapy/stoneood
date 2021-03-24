@@ -5,7 +5,7 @@ height: 500px;
 /* position: fixed; */
 /* top: 100px; */
 position: relative;
-background-image: url(https://i.postimg.cc/T3B3WFcv/2.jpg);
+/* background-image: url(https://wallup.net/wp-content/uploads/2018/09/27/470332-abstract-art-colorful-colors-design-illustration-light-theme.jpg); */
 -webkit-background-size: cover;
 background-size: cover;
 background-position: center center;
@@ -13,11 +13,13 @@ background-position: center center;
 }
 .banner-area h2 {
 text-align: center;
-padding-top: 8%;
-font-size: 70px;
+padding-top: 13%;
+font-size: 60px;
 font-family: poppins;
 text-transform: uppercase;
-color: #fff;
+color:rgba(252, 251, 247, 0.904) ;
+font-weight: 900;
+text-shadow:5px 2px 2px #3f1108 ;
 }
 .banner-area h4 {
 text-align: center;
@@ -40,10 +42,48 @@ text-transform: uppercase;
 color: #fff;
 
 }
-.banner-area div li{
-text-decoration: none;
-display: inline-block;
+#intro{
+  width: 75%;
+  margin-left: 12.5%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
 }
+#intro p{
+  font-family: poppins;
+  font-size: 25px;
+  letter-spacing: 0.8px;
+  font-weight: 10px;
+}
+#aTagForm{
+  display: inline-block;
+  width: 75%;
+  margin-left: 12.5%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+#elementBottum {
+  list-style-type: none;
+   width: 200px;
+  text-transform: uppercase;
+  border-radius:10px 10px 10px 10px;
+}
+#elementBottum li a {
+  display: block;
+  margin: 15px;
+  padding: 15px;
+  color: #404C4E;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius:10px 10px 10px 10px;
+}
+/* Change the link color on hover */
+#elementBottum li a:hover {
+  background-color: rgb(19, 119, 233);
+  color: white;
+}
+
 #last h1{
 font-size: x-large;
 margin-bottom: 50px;
@@ -136,15 +176,10 @@ border: black;
     opacity: 1;
     right: 0;
   }
-   form{
-    border-radius: 15px 0 15px 0;
-    
-  }
+  
 
   #myform{
     border-radius:10px 0px 10px 0px;
-    width: 40%;
-    margin: 0;
     width: 30%;
     padding: 10px;
     float: left;
@@ -187,14 +222,6 @@ border: black;
    width:auto;
    text-transform:uppercase;
    cursor:pointer;
-   /* transition:.3s
-   
-   background ease;
-   &:hover{
-     background:#3498DB;
-   } */
+  
  }
 
- input[type=submit]:hover{
-
- }
