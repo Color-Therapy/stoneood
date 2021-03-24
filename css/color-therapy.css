@@ -1,3 +1,63 @@
+#pageup
+{
+    display: inline-block;
+    padding-left: 18%;
+    width: 80%;
+    padding-top: 8%;
+}
+
+#Scrollbox {
+    height: 300px;
+    width: 50%;
+    border: 1px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
+    float: left;
+    padding-top: 3%;
+
+}
+
+/*  blue slider to compare two images */
+#slider
+{
+    float: right;
+    width:40%;
+    padding-right: 3%;
+    padding-bottom: 50%;
+    padding-top: 8%;
+}
+
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
 
 #submit{
     border-radius: 20px;
