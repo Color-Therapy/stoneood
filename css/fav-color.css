@@ -2,15 +2,6 @@
   box-sizing: border-box;
 }
 
-body{
-  margin:0;
-  height:1000px;
-}  
-
-.header {
-  text-align: center;
-  padding: 32px;
-}
 
   /* Create two equal columns that floats next to each other */
   .column {
@@ -82,7 +73,7 @@ h1{
 }
 fieldset
 {
-    width: 120%;
+    width: 100%;
     border-radius:50px ;
     
 }
