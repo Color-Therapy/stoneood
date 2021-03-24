@@ -83,7 +83,11 @@ fieldset
 #theForm{
     text-align: center;
     border-radius: 5px;
-    background: rgb(202, 197, 197);
+    /* background: rgb(202, 197, 197); */
+    border-radius: 5px;
+background-color: #d3e0ea;
+box-shadow: 0 0 5px 2px black;
+
     width: 30%;
     height: 300px;
     padding-top: 30px;
@@ -92,13 +96,19 @@ fieldset
     font-size: larger;
   
 }   
+
 section #favColorResult p{
 
   text-align: center;
     border-radius: 5px;
-    background: rgb(202, 197, 197);
+    /* background: rgb(202, 197, 197);
+     */
+     border-radius: 5px;
+     background-color: #d3e0ea;
+     box-shadow: 0 0 5px 2px black;
+ 
     width: 30%;
-    height: 300px;
+    height: 350px;
     padding-top: 30px;
     margin-left: 35%;
     border-radius: 60px;
@@ -106,3 +116,20 @@ section #favColorResult p{
 
 }
 
+#theForm section{
+  margin: 10px;
+}
+#theForm fieldset{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+#theForm #submit{
+  width: 30%;
+}
+#theForm {
+  margin-bottom: 20px;
+}

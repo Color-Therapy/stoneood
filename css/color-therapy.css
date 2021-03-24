@@ -4,6 +4,7 @@
     display: inline-block;
     padding-left: 18%;
     width: 80%;
+    height: 500px;
     padding-top: 8%;
 }
 
@@ -73,7 +74,7 @@ h1{
 }
 fieldset
 {
-    width: 120%;
+    /* width: 120%; */
     border-radius:50px ;
     
 }
@@ -87,10 +88,13 @@ fieldset
 #formy{
 text-align: center;
 border-radius: 5px;
-background: rgb(202, 197, 197);
+/* background: rgb(202, 197, 197); */
+background-color: #d3e0ea;
+box-shadow: 0 0 5px 2px black;
+
 width: 50%;
 margin-left: 25%;
-border-radius: 50px;
+border-radius: 5px;
 font-size: larger;
 padding-top: 30px;
 padding-bottom: 30px;
@@ -105,7 +109,13 @@ padding-bottom: 30px;
 #therapyResult p {
     text-align: center;
     border-radius: 5px;
-    background: rgba(71, 231, 31, 0.534);
+    /* background: rgba(71, 231, 31, 0.534);
+
+     */
+     border-radius: 5px;
+background-color: #d3e0ea;
+box-shadow: 0 0 5px 2px black;
+
     width: 1000;
     height: 850px;
     padding-top: 30px;
@@ -177,4 +187,16 @@ padding-bottom: 30px;
     margin: 0;
 }
 
+#containerx{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
 
+#containerx section, #containerx canvas{
+    width: 50% !important;
+}
+#containerx canvas{
+    height: 400px !important;
+}

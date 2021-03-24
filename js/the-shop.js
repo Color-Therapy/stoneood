@@ -54,6 +54,7 @@ function createAddToCartButton(){
 function createQtyField(inpuName){
   let qty=document.createElement('input');
   qty.setAttribute('type','number');
+  qty.setAttribute('value',0);
   qty.setAttribute('class','qty-field');
   qty.setAttribute('name',inpuName);
   return qty
@@ -117,6 +118,7 @@ createProduct();
 
 let space=document.getElementById('cartItems');
 function renderCartItems(){
+  space.innerHTML=''
   let localItem=localStorage.getItem('cart')
   let productArray = JSON.parse(localItem)
   if(productArray){
