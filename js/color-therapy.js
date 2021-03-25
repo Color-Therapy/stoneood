@@ -169,14 +169,14 @@ function clickhandler(event) {
             secondValueAnswer = `make some changes to your routine by adding a hobby. And your hobby should be a completely pleasurable activity that allows you to take your mind off of the demands of your daily life or negative emotions. It’s a healthy and productive distraction from work or personal troubles. and to help you with this part `;
             secondPercantage = 40;
             secColor = 'Green';
-            fifthPercantage = 20;
+            fifthPercantage = 80;
             secColor2 = 'blue';
         }
 
 
     if (question3 == 'ans1Q3') {
         thirdValueAnswer = `You are going through some of these days now we will highly recommend some colors to boost yourself up and feel much better to keep going `;
-        thirdPercantage = 80;
+        thirdPercantage = 20;
         thirdColor = 'yellow';
         sixthPercantage = 20;
         thirdColor2 = 'Orange';

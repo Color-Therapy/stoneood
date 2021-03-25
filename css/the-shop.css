@@ -2,6 +2,9 @@
     box-sizing: border-box;
   }
 /* img */
+body{
+  background-color: #13a1c6;
+}
 
 #glassy {
 	width: 50%;
@@ -26,10 +29,20 @@
 
 
 .painting {
-    width: 30rem;
-    height: 20rem;
+  text-align: center;
+    color: #ffffdc;
+  word-wrap: break-word;
+  white-space: normal;
+  line-height: 1;
+  font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.3px;
+  font-weight: 10px;
+  word-spacing: 5px;
+  font-weight: bolder;
+    width: 43rem;
+    height: 25rem;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-    border-radius: 5px;
+    border-radius: 10px;
     position: relative;
     z-index: 1;
     background: inherit;
@@ -51,7 +64,7 @@
   }
   .painting h3{
   text-align: center;
-  padding-top: 25%;
+  padding: 10%;
   font-size: 25px;
   font-family: poppins;
   text-transform: uppercase;

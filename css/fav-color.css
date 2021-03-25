@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+body{
+  background-color: #060708;
+}
 
   /* Create two equal columns that floats next to each other */
   .column {
@@ -24,10 +26,24 @@
 
 
 #favcolortext {
-    height: 840px;
+  text-align: center;
+  padding: 8px;
+  font-size: 8px;
+  color: #ffffdc;
+  word-wrap: break-word;
+  white-space: normal;
+  line-height: 1.8;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  letter-spacing: 0.8px;
+  font-weight: 10px;
+  word-spacing: 5px;
+  border-radius: 5px;
+     background-color: #13a1c6;
+     box-shadow: 0 0 5px 2px black;
+    height: 1130px;
     width: 40%;
-    border: 0.5px solid #ccc;
-    font: 16px/26px Georgia, Garamond, Serif;
+    border: 0.5px solid #13a1c6;
     border-radius: 5px;
     overflow:visible ;
     float: left;
@@ -51,7 +67,7 @@
     padding-left: 3%;
     padding-right: 3%;
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
 
 }
 
@@ -63,13 +79,22 @@
 
 #submit{
     border-radius: 20px;
-    background-color: rgb(35, 182, 170);
+    background-color: #13a1c6;
     background: white;
 }
 h1{
-    padding-top: 20px;
-    text-align: center;
-    padding-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  color: #ffffdc;
+  word-wrap: break-word;
+  white-space: normal;
+  line-height: 1.8;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  letter-spacing: 0.8px;
+  font-weight: 10px;
+  word-spacing: 5px;
 }
 fieldset
 {
@@ -85,7 +110,7 @@ fieldset
     border-radius: 5px;
     /* background: rgb(202, 197, 197); */
     border-radius: 5px;
-background-color: #d3e0ea;
+background-color: #13a1c6;
 box-shadow: 0 0 5px 2px black;
 
     width: 30%;
@@ -98,21 +123,28 @@ box-shadow: 0 0 5px 2px black;
 }   
 
 section #favColorResult p{
-
   text-align: center;
-    border-radius: 5px;
-    /* background: rgb(202, 197, 197);
-     */
-     border-radius: 5px;
-     background-color: #d3e0ea;
+  padding: 8px;
+  font-size: 40px;
+  color: #ffffdc;
+  word-wrap: break-word;
+  white-space: normal;
+  line-height: 1.8;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  letter-spacing: 0.65px;
+  font-weight: 10px;
+  word-spacing: 5px;
+  border-radius: 5px;
+     background-color: #13a1c6;
      box-shadow: 0 0 5px 2px black;
  
-    width: 30%;
-    height: 350px;
-    padding-top: 30px;
-    margin-left: 35%;
+    width: 40%;
+    height: 630px;
+    padding-top: 20px;
+    margin-left: 30%;
     border-radius: 60px;
-    font-size: larger;
+    margin-bottom:30px ;
 
 }
 
