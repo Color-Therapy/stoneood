@@ -1,23 +1,55 @@
 *{
     box-sizing: content-box;
   }
+  body{
+    background-color: #060708;
+  }
   main {
     /* margin-top: 20px; */
     padding: 120px;
 }
-  main p{
-    text-align: left;
-    padding-right: 20%;
-    font-size: 20px;
-    padding-left: 10px;
-  }
-  h1{
-    text-align: center;
-    /* border: 3px solid black; */
-    border-width:initial;
-    font-size: xx-large;
-    /* text-shadow: 2px 2px 5px rgb(219, 169, 121); */
-  }
+main p{
+  margin-left: 10%;
+  z-index: 1000;
+}
+#about{
+  text-align: center;
+  padding: 8px;
+  color: #ffffdc;
+  word-wrap: break-word;
+  white-space: normal;
+  line-height: 1.8;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  letter-spacing: 0.65px;
+  font-weight: 10px;
+  word-spacing: 5px;
+  border-radius: 5px;
+     background-color: #13a1c6;
+     box-shadow: 0 0 5px 2px black;
+ 
+    width: 80%;
+       height: 330px;
+    padding-top: 20px;
+    margin-left: 10%;
+    border-radius: 60px;
+    margin-bottom:30px ;
+}
+  
+h1{
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  color: #ffffdc;
+  word-wrap: break-word;
+  white-space: normal;
+  line-height: 1.8;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  letter-spacing: 0.8px;
+  font-weight: 10px;
+  word-spacing: 5px;
+}
 
   
 #Team h3 {
@@ -41,6 +73,8 @@ color: rgb(151, 99, 99);
     /* padding-top: 50%; */
     margin-top: 30px;
     /* padding-bottom: 50%; */
+    padding-bottom: 70px;
+    padding-top: 70px;
     
   }
   
@@ -59,7 +93,7 @@ color: rgb(151, 99, 99);
     position: relative;
     width: 15%;
     padding-bottom: 100px;
-    padding: 1%;
+    padding: 2%;
     justify-items: center;
     border-radius: 50px;
     /* cursor: zoom-in; */
@@ -88,7 +122,7 @@ color: rgb(151, 99, 99);
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 2s;
+    transition: opacity 3s;
   
   
   }
@@ -103,7 +137,7 @@ color: rgb(151, 99, 99);
   
   .image__overlay > * {
     transform: translateY(20px);
-    transition: transform 0.25s;
+    transition: transform 1s;
   }
   
   .image__overlay:hover {
@@ -151,11 +185,10 @@ color: rgb(151, 99, 99);
   .allImg  ul li{
     position: relative;
     display: block;
-    color: #666;
     font-size: 45px;
     height: 60px;
     width: 60px;
-    background: #141414ef;
+    background: white;
     line-height: 60px;
     border-radius: 50%;
     margin: 3px;

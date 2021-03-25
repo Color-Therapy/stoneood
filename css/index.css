@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+  background-color: #060708;
+}
 
 .banner-area {
 width: 100%;
@@ -6,11 +9,11 @@ height: 500px;
 /* position: fixed; */
 /* top: 100px; */
 position: relative;
-background-image: url(https://wallup.net/wp-content/uploads/2018/09/27/470332-abstract-art-colorful-colors-design-illustration-light-theme.jpg);
+background-image: url(http://2.bp.blogspot.com/-rETwPszyWbw/VRtxSczpXOI/AAAAAAAAGV8/pMfCTG8NmjY/s1600/Mark%2BMawson4.jpg);
 -webkit-background-size: cover;
 background-size: cover;
 background-position: center center;
-box-shadow: 0 0 10px 2px black;
+box-shadow: 0 0 10px 2px #060708;
 
 }
 .banner-area h2 {
@@ -21,6 +24,7 @@ font-family: 'poppins';
 text-transform: uppercase;
 color:rgba(252, 251, 247, 0.904) ;
 font-weight: 900;
+word-spacing: 10px;
 text-shadow:5px 2px 2px #3f1108 ;
 }
 .banner-area h4 {
@@ -30,6 +34,7 @@ font-size: 30px;
 font-family: 'poppins';
 text-transform: uppercase;
 color: #fff;
+word-spacing: 10px;
 }
 
 .banner-area div {
@@ -52,10 +57,15 @@ color: #fff;
   text-align: center;
 }
 #intro p{
-  font-family: 'poppins';
+  color: #ffffdc;
+  word-wrap: break-word;
+  white-space: normal;
+  line-height: 1.8;
+  font-family: 'Roboto Slab', serif;
   font-size: 25px;
   letter-spacing: 0.8px;
   font-weight: 10px;
+  word-spacing: 5px;
 }
 #aTagForm{
   display: inline-block;
@@ -88,9 +98,13 @@ color: #fff;
 
 #last h1{
 font-size: 32px;
-font-family: 'Roboto Slab', serif;
 text-align: center;
-color: #276678;
+color: #ffffdc;
+word-spacing: 5px;
+word-wrap: break-word;
+  white-space: normal;
+  line-height: 1.8;
+  font-family: 'Roboto Slab', serif;
 margin-bottom: 50px;
 }
 input:first-child{
@@ -108,10 +122,27 @@ padding-bottom: 40px;
 float: left;
 width: 47.5%;
 }
+#text p{
+  color: #ffffdc;
+  word-spacing: 7px;
+  word-wrap: break-word;
+  white-space: normal;
+  line-height: 1.8;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+text-align: center;
+
+}
 #photo{
 width: 47.5%;
 float: right;
+
 }
+#photo img{
+width: 90%;
+height: 350px;
+}
+
 #feedback-form{
 padding-top: 20px;
 text-align: center;
@@ -228,6 +259,11 @@ padding: 10px;
    cursor:pointer;
   
  }
+ .left div{
+   margin: 0;
+   padding: 0;
+   
+ }
 
 
  .feeds{
@@ -268,6 +304,10 @@ font-family: 'Roboto Slab', serif;
   }
 
   .feeds section p{
+    word-wrap: break-word;
+  white-space: normal;
+  line-height: 1.8;
+  font-family: 'Roboto Slab', serif;
     font-size: 16px;
     color: #276678;
     padding: 5px;
